@@ -5,6 +5,7 @@ from prompt_toolkit.completion import WordCompleter
 from docx import Document
 from docx.shared import Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from aggiorna_link import aggiorna_link
 
 # === CONFIG FILE PATH ===
 LINKS_JSON = "video_links.json"
@@ -87,14 +88,18 @@ for nome in esercizi_unici:
 
 # === Salva documento finale ===
 scheda.save(OUTPUT_DOC)
-print(f"\nScheda salvata in: {OUTPUT_DOC}")
 
 # === Scrivi esercizi mancanti da completare ===
+# Dopo aver creato la lista mancanti (che hai già nel tuo script)
+
 if mancanti:
     with open(MANCANTI_TXT, "w", encoding="utf-8") as f:
         for nome in mancanti:
-            f.write(nome + "\n")
-    print(f"\nEsercizi mancanti salvati in: {MANCANTI_TXT}")
+            f.write(nome + "\n")    
+    risposta = input(f"\nCi sono {len(mancanti)} esercizi senza link. Vuoi aggiornarli adesso? (s/n): ").strip().lower()
+    if risposta == "s":
+        aggiorna_link()  # usa i file di default o passa i nomi se vuoi
+    else:
+        print("Aggiornamento rimandato. Puoi farlo più tardi con lo script dedicato.")
 else:
-    print("\nTutti gli esercizi hanno un link!")
-
+    print("\nTutti gli esercizi hanno un link.")
