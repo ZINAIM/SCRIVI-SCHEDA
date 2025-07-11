@@ -6,13 +6,18 @@ from docx import Document
 from docx.shared import Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from aggiorna_link import aggiorna_link
+from docx.oxml.ns import qn
+import os
+
 
 # === CONFIG FILE PATH ===
-LINKS_JSON = "video_links.json"
-MANCANTI_TXT = "mancanti.txt"
-OUTPUT_DOC = r"prova scheda.docx"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LINKS_JSON = os.path.join(BASE_DIR, "video_links.json")
+MANCANTI_TXT = os.path.join(BASE_DIR, "mancanti.txt")
+OUTPUT_DOC = os.path.join(BASE_DIR, "prova scheda.docx")
 
-# === Carica link esercizi da JSON ===
+
+# === Carica link esercizi da JSON ===   
 try:
     with open(LINKS_JSON, "r", encoding="utf-8") as f:
         video_links = json.load(f)
@@ -22,6 +27,7 @@ except FileNotFoundError:
 # === Autocompletamento da elenco esercizi noti ===
 esercizi_noti = list(video_links.keys())
 esercizio_completer = WordCompleter(esercizi_noti, ignore_case=True)
+
 
 # === Input utente ===
 data = input("Data di oggi: ")
@@ -38,7 +44,7 @@ for giorno in range(int(giorni_allenamento)):
             break
         serie = input("Numero di serie: ")
         ripetizioni = input("Numero di ripetizioni: ")
-        recupero = input("Recupero (in sec): ")
+        recupero = input("Recupero: ")
         esercizi_giorno.append({
             "esercizio": esercizio,
             "serie": serie,
@@ -85,6 +91,7 @@ for nome in esercizi_unici:
     p = scheda.add_paragraph()
     run = p.add_run(testo)
     run.font.name = 'Courier New'
+    run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Courier New')  
 
 # === Salva documento finale ===
 scheda.save(OUTPUT_DOC)
