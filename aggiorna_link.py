@@ -47,3 +47,5 @@ def aggiorna_link(mancanti_file="mancanti.txt", json_file="video_links.json"):
         json.dump(video_links, f, ensure_ascii=False, indent=2)
 
     print(f"\nAggiornamento completato. Link salvati in '{json_file}'.")
+if __name__ == "__main__":
+    aggiorna_link()
