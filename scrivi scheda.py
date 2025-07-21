@@ -5,7 +5,7 @@ from prompt_toolkit.completion import WordCompleter
 from docx import Document
 from docx.shared import Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from aggiorna_link import aggiorna_link
+from aggiorna_link import aggiorna_link_da_lista
 from docx.oxml.ns import qn
 import os
 
@@ -105,7 +105,7 @@ if mancanti:
             f.write(nome + "\n")    
     risposta = input(f"\nCi sono {len(mancanti)} esercizi senza link. Vuoi aggiornarli adesso? (s/n): ").strip().lower()
     if risposta == "s":
-        aggiorna_link()  # usa i file di default o passa i nomi se vuoi
+        aggiorna_link_da_lista(mancanti)  # usa i file di default o passa i nomi se vuoi
     else:
         print("Aggiornamento rimandato. Puoi farlo più tardi con lo script dedicato.")
 else:
