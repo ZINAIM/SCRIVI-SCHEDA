@@ -1,0 +1,32 @@
+{
+  "Giorno A": [
+    {
+      "esercizio": "pull upu",
+      "serie": [
+        3,
+        3,
+        3
+      ],
+      "ripetizioni": [
+        4,
+        4,
+        4
+      ],
+      "recupero": "4"
+    },
+    {
+      "esercizio": "prova no",
+      "serie": [
+        3,
+        3,
+        3
+      ],
+      "ripetizioni": [
+        4,
+        4,
+        4
+      ],
+      "recupero": "5"
+    }
+  ]
+}
