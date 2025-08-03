@@ -45,8 +45,8 @@ for giorno in range(giorni_allenamento):
         esercizio = prompt("Nome esercizio (s per stop): ", completer=esercizio_completer)
         if esercizio.lower() == "s":
             break
-        serie = int(input("Numero di serie: "))
-        ripetizioni = int(input("Numero di ripetizioni: "))
+        serie = input("Numero di serie: ")
+        ripetizioni = input("Numero di ripetizioni: ")
         recupero = input("Recupero: ")
 
         esercizi_giorno.append({
