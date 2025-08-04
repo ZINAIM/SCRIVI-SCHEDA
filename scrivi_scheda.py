@@ -119,4 +119,4 @@ if mancanti:
     if risposta == "s":
         aggiorna_link_da_lista(mancanti)
 else:
-    print("\nTutti gli esercizi hanno un link.")
+    print("\nTutti gli esercizi hanno un  link.")
