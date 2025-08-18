@@ -86,7 +86,7 @@ for settimana in range(settimane_allenamento):
             rip = esercizio["ripetizioni"][settimana]
             rec = esercizio["recupero"]
             p = scheda.add_paragraph()
-            run = p.add_run(f"{nome}: {serie} x {rip}   rec {rec}")
+            run = p.add_run(f"{nome:<20} {serie:>2} x {rip:<5}   rec {rec}' ")
             run.font.name = 'Courier New'
             p.paragraph_format.space_after = Pt(0)
             esercizi_unici[nome] = None
