@@ -136,6 +136,17 @@ if mancanti:
             f.write(nome + "\n")
     risposta = input(f"\nCi sono {len(mancanti)} esercizi senza link. Vuoi aggiornarli adesso? (s/n): ").strip().lower()
     if risposta == "s":
+                # Forza apertura e chiusura del file per rilasciare eventuali lock
+        try:
+            with open(LINKS_JSON, "r", encoding="utf-8") as f:
+                pass
+        except Exception as e:
+            print(f"Errore aprendo file prima aggiornamento link: {e}")
+
         aggiorna_link_da_lista(mancanti)
-else:
-    print("\nTutti gli esercizi hanno un link.")
+
+# Ora carica i link aggiornati
+with open(LINKS_JSON, "r", encoding="utf-8") as f:
+    video_links = json.load(f)
+
+input("\nPremi INVIO per chiudere...")
