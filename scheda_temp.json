@@ -1,0 +1,54 @@
+{
+  "Giorno A": [
+    {
+      "esercizio": "pull up",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "6",
+        "6",
+        "6",
+        "6"
+      ],
+      "recupero": "2"
+    },
+    {
+      "esercizio": "esercizio che non c'è ",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "recupero": "5"
+    }
+  ],
+  "Giorno B": [
+    {
+      "esercizio": "Dip",
+      "serie": [
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "ripetizioni": [
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "recupero": "6"
+    }
+  ]
+}
