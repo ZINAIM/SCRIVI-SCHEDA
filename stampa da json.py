@@ -5,9 +5,11 @@ import json
 import os
 
 def stampa_scheda_da_json(file_json, settimane, output_doc="scheda_finale.docx"):
+    os.chdir(r"C:\Users\matte\OneDrive\Documenti\GitHub\SCRIVI-SCHEDA")
     # === Carica dati JSON ===
     with open(file_json, "r", encoding="utf-8") as f:
         scheda_dati = json.load(f)
+        
 
     # === Crea nuovo documento Word ===
     doc = Document()

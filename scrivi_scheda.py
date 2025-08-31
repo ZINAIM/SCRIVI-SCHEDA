@@ -104,8 +104,7 @@ for settimana in range(settimane_allenamento):
 
             # Scrivi nel documento, giustificato a destra
             p = scheda.add_paragraph()
-            p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-            run = p.add_run(f"{nome} {dettaglio}".strip())
+            run = p.add_run(f"{nome}     {dettaglio}".strip())
             run.font.name = 'Courier New'
             esercizi_unici[nome] = None
 
