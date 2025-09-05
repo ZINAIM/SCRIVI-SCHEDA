@@ -10,11 +10,17 @@ from docx.oxml.ns import qn
 import os
 import webbrowser
 
+# === Input utente ===
+data = input("Data di oggi: ")
+nome_cliente = input("Nome e cognome: ")
+giorni_allenamento = int(input("Quanti giorni ti allenerai? "))
+settimane_allenamento = int(input("Quante settimane ti allenerai? "))
+
 # === CONFIG FILE PATH ===
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LINKS_JSON = os.path.join(BASE_DIR, "video_links.json")
 MANCANTI_TXT = os.path.join(BASE_DIR, "mancanti.txt")
-OUTPUT_DOC = os.path.join(BASE_DIR, "prova scheda.docx")
+OUTPUT_DOC = os.path.join(BASE_DIR, f"scheda {nome_cliente}.docx")
 TEMP_JSON = os.path.join(BASE_DIR, "scheda_temp.json")
 
 # === Carica link esercizi da JSON ===
@@ -28,11 +34,7 @@ except FileNotFoundError:
 esercizi_noti = list(video_links.keys())
 esercizio_completer = WordCompleter(esercizi_noti, ignore_case=True)
 
-# === Input utente ===
-data = input("Data di oggi: ")
-nome_cliente = input("Nome e cognome: ")
-giorni_allenamento = int(input("Quanti giorni ti allenerai? "))
-settimane_allenamento = int(input("Quante settimane ti allenerai? "))
+
 
 # === Costruisci struttura scheda ===
 scheda_dict = {}
