@@ -74,7 +74,7 @@ with open(TEMP_JSON, "r", encoding="utf-8") as f:
 
 # === Crea documento Word ===
 scheda = Document()
-scheda.add_heading(f"Scheda {data}, {nome_cliente}", 0)
+scheda.add_heading(f"Scheda {nome_cliente}", 0)
 
 # === Stampa settimana per settimana ===
 esercizi_unici = OrderedDict()
