@@ -84,14 +84,32 @@ for settimana in range(settimane_allenamento):
         scheda.add_heading(giorno_nome, level=2)
         for esercizio in esercizi:
             nome = esercizio["esercizio"]
-            serie = esercizio["serie"][settimana]
-            rip = esercizio["ripetizioni"][settimana]
-            rec = esercizio["recupero"]
+            
+            # Estrai serie, ripetizioni e recupero per la settimana corrente
+            serie_set = esercizio.get("serie", [])
+            rip_set = esercizio.get("ripetizioni", [])
+            rec = esercizio.get("recupero", "").strip()
+
+            serie = serie_set[settimana] if settimana < len(serie_set) else ""
+            rip = rip_set[settimana] if settimana < len(rip_set) else ""
+
+            # Costruzione testo condizionale
+            dettaglio = ""
+            if serie and rip:
+                dettaglio += f"{serie} x {rip}"
+            elif serie:
+                dettaglio += f"{serie} x"
+            elif rip:
+                dettaglio += f"x {rip}"
+            if rec:
+                dettaglio += f"   rec {rec}"
+
+            # Scrivi nel documento, giustificato a destra
             p = scheda.add_paragraph()
-            run = p.add_run(f"{nome:<20} {serie:>2} x {rip:<5}   rec {rec}' ")
+            run = p.add_run(f"{nome}     {dettaglio}".strip())
             run.font.name = 'Courier New'
-            p.paragraph_format.space_after = Pt(0)
             esercizi_unici[nome] = None
+
 
 # === Sezione video ===
 scheda.add_page_break()
