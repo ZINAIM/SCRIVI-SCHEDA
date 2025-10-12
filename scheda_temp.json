@@ -1,0 +1,296 @@
+{
+  "Giorno A": [
+    {
+      "esercizio": "pull up al petto",
+      "serie": [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "ripetizioni": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "tuck front lever",
+      "serie": [
+        "5",
+        "4",
+        "5",
+        "3"
+      ],
+      "ripetizioni": [
+        "5\"",
+        "6\"",
+        "6\"",
+        "7\""
+      ],
+      "recupero": "2"
+    },
+    {
+      "esercizio": "dragon flag pulls ",
+      "serie": [
+        "TEST",
+        "TEST",
+        "TEST",
+        "TEST"
+      ],
+      "ripetizioni": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "pull up press neutra",
+      "serie": [
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "ripetizioni": [
+        "8",
+        "8",
+        "8",
+        "8"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "Affondi",
+      "serie": [
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "ripetizioni": [
+        "10/12",
+        "10/12",
+        "10/12",
+        "10/12"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "tuck L-sit",
+      "serie": [
+        "tabata ",
+        "tabata ",
+        "tabata ",
+        "tabata "
+      ],
+      "ripetizioni": [
+        "6 x 20\"+20\"",
+        "6 x 20\"+20\"",
+        "6 x 20\"+20\"",
+        "6 x 20\"+20\""
+      ],
+      "recupero": ""
+    }
+  ],
+  "Giorno B": [
+    {
+      "esercizio": "planche lean hold",
+      "serie": [
+        "5",
+        "4",
+        "5",
+        "3"
+      ],
+      "ripetizioni": [
+        "5\"",
+        "6\"",
+        "6\"",
+        "7\""
+      ],
+      "recupero": "2"
+    },
+    {
+      "esercizio": "pseudo planche push up ",
+      "serie": [
+        "3",
+        "4",
+        "4",
+        "5"
+      ],
+      "ripetizioni": [
+        "5",
+        "4",
+        "5",
+        "4"
+      ],
+      "recupero": "2"
+    },
+    {
+      "esercizio": "Dip",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "V push up",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "12-15",
+        "12-15",
+        "12-15",
+        "12-15"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "step jump ",
+      "serie": [
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "ripetizioni": [
+        "10-12",
+        "10-12",
+        "10-12",
+        "10-12"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "hanging bike",
+      "serie": [
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "ripetizioni": [
+        "20\"",
+        "20\"",
+        "20\"",
+        "20\""
+      ],
+      "recupero": ""
+    }
+  ],
+  "Giorno C": [
+    {
+      "esercizio": "pull up al petto",
+      "serie": [
+        "ladder sali e scendi",
+        "ladder sali e scendi",
+        "ladder sali e scendi",
+        "ladder sali e scendi"
+      ],
+      "ripetizioni": [
+        "5 serie totali",
+        "5 serie totali",
+        "5 serie totali",
+        "5 serie totali"
+      ],
+      "recupero": "30\""
+    },
+    {
+      "esercizio": "push up",
+      "serie": [
+        "TEST",
+        "TEST",
+        "TEST",
+        "TEST"
+      ],
+      "ripetizioni": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "commando pull up ",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "8",
+        "8",
+        "8",
+        "8"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "verticale al muro ",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "10\"",
+        "10\"",
+        "10\"",
+        "10\""
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "discese in tuck front lever",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "recupero": "discesa in 4\""
+    },
+    {
+      "esercizio": "diamond push up",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "recupero": ""
+    }
+  ]
+}
