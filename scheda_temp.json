@@ -1,44 +1,110 @@
 {
   "Giorno A": [
     {
-      "esercizio": "pull up al petto",
+      "esercizio": "pull up",
       "serie": [
-        "6",
-        "7",
-        "8",
-        "10"
-      ],
-      "ripetizioni": [
-        "2",
-        "2",
-        "2",
-        "2"
-      ],
-      "recupero": ""
-    },
-    {
-      "esercizio": "tuck front lever",
-      "serie": [
-        "5",
+        "3",
         "4",
-        "5",
-        "3"
+        "4",
+        "5"
       ],
       "ripetizioni": [
-        "5\"",
-        "6\"",
-        "6\"",
-        "7\""
+        "8",
+        "8",
+        "8",
+        "8"
       ],
       "recupero": "2"
     },
     {
-      "esercizio": "dragon flag pulls ",
+      "esercizio": "one arm australian pull up",
       "serie": [
-        "TEST",
-        "TEST",
-        "TEST",
-        "TEST"
+        "4",
+        "5",
+        "5",
+        "5"
+      ],
+      "ripetizioni": [
+        "6",
+        "6",
+        "7",
+        "8"
+      ],
+      "recupero": "2"
+    },
+    {
+      "esercizio": "australian chin up",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "8-10",
+        "8-10",
+        "8-10",
+        "8-10"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "shrimp squat ",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "8-10",
+        "8-10",
+        "8-10",
+        "8-10"
+      ],
+      "recupero": "1-2"
+    },
+    {
+      "esercizio": "one leg tuck L-sit",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "5+5+5",
+        "5+5+5",
+        "5+5+5",
+        "5+5+5"
+      ],
+      "recupero": "5\"sx su - 5\" piegate - 5\"dx su"
+    },
+    {
+      "esercizio": "superman plank",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "30\"",
+        "30\"",
+        "30\"",
+        "30\""
+      ],
+      "recupero": "libero, se duro avvicina le mani alla testa "
+    }
+  ],
+  "Giorno B": [
+    {
+      "esercizio": "V push up",
+      "serie": [
+        "",
+        "",
+        "",
+        ""
       ],
       "ripetizioni": [
         "",
@@ -49,126 +115,174 @@
       "recupero": ""
     },
     {
-      "esercizio": "pull up press neutra",
-      "serie": [
-        "5",
-        "5",
-        "5",
-        "5"
-      ],
-      "ripetizioni": [
-        "8",
-        "8",
-        "8",
-        "8"
-      ],
-      "recupero": ""
-    },
-    {
-      "esercizio": "Affondi",
-      "serie": [
-        "5",
-        "5",
-        "5",
-        "5"
-      ],
-      "ripetizioni": [
-        "10/12",
-        "10/12",
-        "10/12",
-        "10/12"
-      ],
-      "recupero": ""
-    },
-    {
-      "esercizio": "tuck L-sit",
-      "serie": [
-        "tabata ",
-        "tabata ",
-        "tabata ",
-        "tabata "
-      ],
-      "ripetizioni": [
-        "6 x 20\"+20\"",
-        "6 x 20\"+20\"",
-        "6 x 20\"+20\"",
-        "6 x 20\"+20\""
-      ],
-      "recupero": ""
-    }
-  ],
-  "Giorno B": [
-    {
-      "esercizio": "planche lean hold",
-      "serie": [
-        "5",
-        "4",
-        "5",
-        "3"
-      ],
-      "ripetizioni": [
-        "5\"",
-        "6\"",
-        "6\"",
-        "7\""
-      ],
-      "recupero": "2"
-    },
-    {
-      "esercizio": "pseudo planche push up ",
-      "serie": [
-        "3",
-        "4",
-        "4",
-        "5"
-      ],
-      "ripetizioni": [
-        "5",
-        "4",
-        "5",
-        "4"
-      ],
-      "recupero": "2"
-    },
-    {
       "esercizio": "Dip",
       "serie": [
         "4",
         "4",
-        "4",
-        "4"
-      ],
-      "ripetizioni": [
-        "10",
-        "10",
-        "10",
-        "10"
-      ],
-      "recupero": ""
-    },
-    {
-      "esercizio": "V push up",
-      "serie": [
-        "4",
-        "4",
-        "4",
-        "4"
-      ],
-      "ripetizioni": [
-        "12-15",
-        "12-15",
-        "12-15",
-        "12-15"
-      ],
-      "recupero": ""
-    },
-    {
-      "esercizio": "step jump ",
-      "serie": [
-        "5",
-        "5",
         "5",
         "5"
+      ],
+      "ripetizioni": [
+        "6",
+        "7",
+        "6",
+        "6"
+      ],
+      "recupero": "2"
+    },
+    {
+      "esercizio": "archer push up",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "recupero": "2"
+    },
+    {
+      "esercizio": "wall squat monogamba",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "max",
+        "max",
+        "max",
+        "max"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "sumo squat",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "8-10",
+        "8-10",
+        "8-10",
+        "8-10"
+      ],
+      "recupero": "superman iso "
+    },
+        {
+      "esercizio": "superman iso ",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "30\"",
+        "30\"",
+        "30\"",
+        "30\""
+      ],
+      "recupero": ""
+    }
+  ],
+  "Giorno C": [
+    {
+      "esercizio": "supporto agli anelli ",
+      "serie": [
+        "5EMOM",
+        "5EMOM",
+        "5EMOM",
+        "5EMOM"
+      ],
+      "ripetizioni": [
+        "10\"",
+        "15\"",
+        "20\"",
+        "20\""
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "tenute false grip australian",
+      "serie": [
+        "5EMOM ",
+        "5EMOM ",
+        "5EMOM ",
+        "5EMOM "
+      ],
+      "ripetizioni": [
+        "10\"",
+        "15\"",
+        "20\"",
+        "20\""
+      ],
+      "recupero": "braccia piegate "
+    },
+    {
+      "esercizio": "push up anelli",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "8-10",
+        "8-10",
+        "8-10",
+        "8-10"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "plank agli anelli",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "30\"",
+        "30\"",
+        "30\"",
+        "30\""
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "Australian pull up",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "8-10",
+        "8-10",
+        "8-10",
+        "8-10"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "croci",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
       ],
       "ripetizioni": [
         "10-12",
@@ -176,76 +290,10 @@
         "10-12",
         "10-12"
       ],
-      "recupero": ""
+      "recupero": "1"
     },
     {
-      "esercizio": "hanging bike",
-      "serie": [
-        "5",
-        "5",
-        "5",
-        "5"
-      ],
-      "ripetizioni": [
-        "20\"",
-        "20\"",
-        "20\"",
-        "20\""
-      ],
-      "recupero": ""
-    }
-  ],
-  "Giorno C": [
-    {
-      "esercizio": "pull up al petto",
-      "serie": [
-        "ladder sali e scendi",
-        "ladder sali e scendi",
-        "ladder sali e scendi",
-        "ladder sali e scendi"
-      ],
-      "ripetizioni": [
-        "5 serie totali",
-        "5 serie totali",
-        "5 serie totali",
-        "5 serie totali"
-      ],
-      "recupero": "30\""
-    },
-    {
-      "esercizio": "push up",
-      "serie": [
-        "TEST",
-        "TEST",
-        "TEST",
-        "TEST"
-      ],
-      "ripetizioni": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "recupero": ""
-    },
-    {
-      "esercizio": "commando pull up ",
-      "serie": [
-        "4",
-        "4",
-        "4",
-        "4"
-      ],
-      "ripetizioni": [
-        "8",
-        "8",
-        "8",
-        "8"
-      ],
-      "recupero": ""
-    },
-    {
-      "esercizio": "verticale al muro ",
+      "esercizio": "curl anelli completi",
       "serie": [
         "3",
         "3",
@@ -253,31 +301,65 @@
         "3"
       ],
       "ripetizioni": [
+        "10-12",
+        "10-12",
+        "10-12",
+        "10-12"
+      ],
+      "recupero": "1"
+    },
+    {
+      "esercizio": "anelli estensioni 3\" in tension",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "6-8",
+        "6-8",
+        "6-8",
+        "6-8"
+      ],
+      "recupero": ""
+    }
+  ],
+  "Variante senza anelli" : [
+    {
+      "esercizio": "supporto agli anelli ",
+      "serie": [
+        "5EMOM",
+        "5EMOM",
+        "5EMOM",
+        "5EMOM"
+      ],
+      "ripetizioni": [
         "10\"",
-        "10\"",
-        "10\"",
-        "10\""
+        "15\"",
+        "20\"",
+        "20\""
       ],
       "recupero": ""
     },
     {
-      "esercizio": "discese in tuck front lever",
+      "esercizio": "tenute false grip australian",
       "serie": [
-        "4",
-        "4",
-        "4",
-        "4"
+        "5EMOM ",
+        "5EMOM ",
+        "5EMOM ",
+        "5EMOM "
       ],
       "ripetizioni": [
-        "2",
-        "2",
-        "2",
-        "2"
+        "10\"",
+        "15\"",
+        "20\"",
+        "20\""
       ],
-      "recupero": "discesa in 4\""
+      "recupero": "braccia piegate "
     },
     {
-      "esercizio": "diamond push up",
+      "esercizio": "push up su un manubrio",
       "serie": [
         "4",
         "4",
@@ -285,10 +367,90 @@
         "4"
       ],
       "ripetizioni": [
-        "10",
-        "10",
-        "10",
-        "10"
+        "8-10",
+        "8-10",
+        "8-10",
+        "8-10"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "plank piedi livello spalle",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "30\"",
+        "30\"",
+        "30\"",
+        "30\""
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "Australian pull up",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "8-10",
+        "8-10",
+        "8-10",
+        "8-10"
+      ],
+      "recupero": ""
+    },
+    {
+      "esercizio": "piegamenti presa larga ",
+      "serie": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "ripetizioni": [
+        "10-12",
+        "10-12",
+        "10-12",
+        "10-12"
+      ],
+      "recupero": "1"
+    },
+    {
+      "esercizio": "curl anelli completi",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "10-12",
+        "10-12",
+        "10-12",
+        "10-12"
+      ],
+      "recupero": "1"
+    },
+    {
+      "esercizio": "plank walk out",
+      "serie": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "ripetizioni": [
+        "6-8",
+        "6-8",
+        "6-8",
+        "6-8"
       ],
       "recupero": ""
     }
